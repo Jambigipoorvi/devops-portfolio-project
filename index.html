@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Portfolio</title>
+    <!-- Google Fonts for typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">Cloud<span>Architect</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">A Cloud Architect</span></h1>
+            <p>Specializing in DevOps, CI/CD, and AWS Cloud Infrastructure.</p>
+            <a href="#projects" class="btn primary-btn">View My Work</a>
+        </div>
+        <!-- Decorative graphic elements -->
+        <div class="glow-circle"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>I am a passionate DevOps Engineer and Full-Stack Developer dedicated to building scalable and automated infrastructure. My expertise lies in designing robust CI/CD pipelines, optimizing cloud environments, and ensuring secure deployments.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Cloud</h3>
+                <p>AWS (S3, EC2, Route 53, IAM)</p>
+            </div>
+            <div class="skill-card">
+                <h3>CI/CD</h3>
+                <p>Jenkins, GitHub Actions</p>
+            </div>
+            <div class="skill-card">
+                <h3>Web Dev</h3>
+                <p>HTML, CSS, JavaScript, React</p>
+            </div>
+            <div class="skill-card">
+                <h3>Version Control</h3>
+                <p>Git, GitHub</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Automated Portfolio Deployment</h3>
+                    <p>Built an end-to-end CI/CD pipeline using Jenkins to automatically deploy this portfolio to AWS S3, mapped with Route 53.</p>
+                    <a href="#" class="btn secondary-btn">View on GitHub</a>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form" id="contact-form">
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Cloud Architect Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
